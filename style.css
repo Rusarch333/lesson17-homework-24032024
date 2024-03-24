@@ -1,0 +1,19 @@
+*{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+:root{
+  font-size: 18px;
+}
+body{
+  margin: 0;
+  background-color: rgb(14, 14, 14);
+}
+.browser-viewport{
+  min-width:  500px;
+  width: 95%;
+  /* Для больших экранов ограничиваем, иначе будет не удобно
+  По бокам от враппера может быть реклама или комментарии
+  15 градусов - удобный угол обзора чтобы читать что-то не крутя головой. */
+  max-width: 500px;
+}

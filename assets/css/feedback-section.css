@@ -1,0 +1,53 @@
+.feedback-section{
+  display: flex;
+  justify-content: space-around;
+  width: 560px;
+  height: 400px; /* ?????????????????????????????????? */
+  background-color: rgb(255, 255, 255);
+}
+.feedback-article{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 33%;
+  margin: 2.5em 2em;
+}
+.feedback-quotation-mark{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: rgb(68, 184, 138);
+}
+.feedback-article:nth-last-of-type(2n+1) .feedback-quotation-mark{
+  background-color: rgb(243, 145, 186);
+}
+.feedback-text{
+  margin-top: 0.4em;
+  margin-right: 0px;
+}
+.feedback-author-info{
+  display: flex; 
+  flex-direction: column;
+  align-items: flex-end;
+  font-size: 0.6em;
+}
+.feedback-author-name{
+  color: rgb(68, 184, 138);
+  font-weight: 600;
+}
+.feedback-article:nth-last-of-type(2n+1)  .feedback-author-name{
+  color: rgb(243, 145, 186);
+}
+.feedback-author-profession{
+  font-weight: 400;
+}
+.feedback-author-company{
+  font-size: 1.1em;
+  font-weight: 700;
+}
+.feedback-author-company-image{
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: bottom;
+}
